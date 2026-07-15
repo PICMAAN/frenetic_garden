@@ -71,14 +71,35 @@ public class ControladorJugador : MonoBehaviour
         }
     }
 
+    void movimientoDiagonal()
+    {
+        if (rb2D.linearVelocityX > 0.1f && rb2D.linearVelocityY > 0.1f)
+        {
+            Debug.Log("Movimiento Diagonal derecho-superior");
+            //FALTAN LOS ANIMATORS
+        }
+        else if (rb2D.linearVelocityX > 0.1f && rb2D.linearVelocityY < -0.1f)
+        {
+            Debug.Log("Movimiento Diagonal derecho-inferior");
+        }
+
+    }
     private void FixedUpdate()
     {
         rb2D.linearVelocityX = moveX * speed;
         //animator.SetFloat("Vx", Mathf.Abs(rb2D.linearVelocityX));
         flip();
+
         rb2D.linearVelocityY = moveY * speed;
         //animator.SetFloat("Vy", rb2D.linearVelocityY);
         flip();
 
+        movimientoDiagonal();
+        flip();
+
+
+
+
     }
+
 }
