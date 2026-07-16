@@ -48,10 +48,5 @@ public class MenuPausa : MonoBehaviour
         }
     }
     
-    private void reactivarJuego()
-    {
-        Time.timeScale = 1f;
-        panelPausa.SetActive(false);
-        estaPausado = false;
-    }
+
 }
