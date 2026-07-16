@@ -2,12 +2,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Dibuja en pantalla los slots de los 16 ingredientes.
+<<<<<<< Updated upstream
 // Se suscribe al InventarioManager para actualizarce automaticamente.
+=======
+// Se suscribe al InventarioManager para refrescarse automaticamente.
+>>>>>>> Stashed changes
 public class InventarioUI : MonoBehaviour
 {
     [Header("Referencias")]
     public GameObject prefabSlot;
+<<<<<<< Updated upstream
     public Transform contenedorSlots; 
+=======
+    public Transform contenedorSlots; // el objeto con el Grid Layout Group o Horizontal Layout Group
+>>>>>>> Stashed changes
 
     private List<SlotInventarioUI> slotsCreados = new List<SlotInventarioUI>();
 
