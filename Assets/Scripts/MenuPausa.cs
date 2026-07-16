@@ -11,6 +11,7 @@ public class MenuPausa : MonoBehaviour
     void Awake()
     {
         acciones = new InputSystem_Actions();
+        Time.timeScale = 1f;
     }
     
     void OnEnable()
@@ -45,5 +46,12 @@ public class MenuPausa : MonoBehaviour
             panelPausa.SetActive(true);
             estaPausado = true;
         }
+    }
+    
+    private void reactivarJuego()
+    {
+        Time.timeScale = 1f;
+        panelPausa.SetActive(false);
+        estaPausado = false;
     }
 }
