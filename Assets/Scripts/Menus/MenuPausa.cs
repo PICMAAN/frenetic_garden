@@ -11,13 +11,14 @@ public class MenuPausa : MonoBehaviour
     void Awake()
     {
         acciones = new InputSystem_Actions();
-        Time.timeScale = 1f;
+        Time.timeScale = 1f;           //Obliga a empezar el juego siempre activo despues del cambio de escena que pausa el tiempo.
+        panelPausa.SetActive(false);   //Obliga a tener internamente el panelPausa desativado para no dar doble click equilibrando los estados del if de abajo
     }
     
     void OnEnable()
     {
-        
         acciones.Player.Enable();
+        
         acciones.Player.Pausa.performed += pausa;
     }
     
@@ -28,7 +29,7 @@ public class MenuPausa : MonoBehaviour
         acciones.Player.Disable();
     }
     
-    public void pausa(InputAction.CallbackContext ctx = default)
+    public void pausa(InputAction.CallbackContext ctx)
     {
         cambioEstadoPausa();
     }
