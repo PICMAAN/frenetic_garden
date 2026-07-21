@@ -1,7 +1,6 @@
-using System;
-
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class ControladorJugador : MonoBehaviour
 {
@@ -9,6 +8,7 @@ public class ControladorJugador : MonoBehaviour
     [SerializeField] private float speed;
     private float moveX;
     private float moveY;
+    private bool haciendoDash;
 
     //VARIABLES TIPO ESTRUCTURAS
     Rigidbody2D rb2D;
@@ -35,12 +35,18 @@ public class ControladorJugador : MonoBehaviour
 
         acciones.Player.Move.performed += movimientoY;
         acciones.Player.Move.canceled += movimientoY;
+        
+        acciones.Player.Sprint.performed += dash;
+        acciones.Player.Sprint.canceled += dash;
     }
 
     void OnDisable()
     {
         acciones.Player.Move.performed -= movimientoX;
         acciones.Player.Move.canceled -= movimientoX;
+        
+        acciones.Player.Sprint.performed -= dash;
+        acciones.Player.Sprint.canceled -= dash;
 
         acciones.Player.Move.performed -= movimientoY;
         acciones.Player.Move.canceled -= movimientoY;
@@ -57,6 +63,22 @@ public class ControladorJugador : MonoBehaviour
     void movimientoY(InputAction.CallbackContext ctx)
     {
         moveY = ctx.ReadValue<Vector2>().y;
+    }
+
+    void dash(InputAction.CallbackContext ctx)
+    {
+        StartCoroutine(movimientoDash());
+    }
+    IEnumerator movimientoDash()
+    {
+        haciendoDash = true;
+        
+        rb2D.linearVelocity = new Vector2(rb2D.linearVelocityY, 0);
+        speed += 9;
+        yield return new WaitForSeconds(0.5f);
+        speed -= 9;
+        
+        haciendoDash = false;
     }
 
     void flip()
@@ -90,16 +112,16 @@ public class ControladorJugador : MonoBehaviour
         //animator.SetFloat("Vx", Mathf.Abs(rb2D.linearVelocityX));
         flip();
 
-        rb2D.linearVelocityY = moveY * speed;
-        //animator.SetFloat("Vy", rb2D.linearVelocityY);
-        flip();
+        if (haciendoDash == false)
+        {
+            rb2D.linearVelocityY = moveY * speed;
+            //animator.SetFloat("Vy", rb2D.linearVelocityY);
+            flip();  
+        }
+        
 
         movimientoDiagonal();
         flip();
-
-
-
-
     }
 
 }
