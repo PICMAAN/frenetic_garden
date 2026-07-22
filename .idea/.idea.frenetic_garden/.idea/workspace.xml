@@ -23,8 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CambiadorDeEscenas.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CanvaDirector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../MOTORES GRAFICOS/EMMA Y SUS AMIGOS LA SECUELA/Assets/Scenes/juego/CONTROL.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
@@ -102,6 +101,7 @@
       <workItem from="1784152905512" duration="4970000" />
       <workItem from="1784223140559" duration="1271000" />
       <workItem from="1784616765677" duration="715000" />
+      <workItem from="1784696795870" duration="3287000" />
     </task>
     <servers />
   </component>
