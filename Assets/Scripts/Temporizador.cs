@@ -16,8 +16,8 @@ public class Temporizador : MonoBehaviour
     public AudioClip sonido10Segundos;
     private bool sonidoReproducido = false;
 
-    [Header("Escena")]
-    public string nombreEscena;
+    [Header("PanelGameOver")]
+    public GameObject panelGameOver;
 
     void Start()
     {
@@ -37,14 +37,16 @@ public class Temporizador : MonoBehaviour
 
             if (tiempoRestante <= 10f && !sonidoReproducido)
             {
+                Debug.Log("Sonido");
                 audioSource.PlayOneShot(sonido10Segundos);
                 sonidoReproducido = true;
             }
+            
         }
         else
         {
             textoTiempo.text = "00:00";
-            SceneManager.LoadScene(nombreEscena);
+            panelGameOver.SetActive(true);
         }
     }
 }
