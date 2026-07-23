@@ -2,50 +2,50 @@
 // de ComensalBase (pedido, globo, paciencia, entrega) y solo define
 // su propio TipoComensal.
 
-public class ComensalPollo : ComensalBase
+public class ComensalPollo : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Pollo;
+        tipo = Tipocomensal.Pollo;
     }
 }
 
-public class ComensalVaca : ComensalBase
+public class ComensalVaca : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Vaca;
+        tipo = Tipocomensal.Vaca;
     }
 }
 
-public class ComensalCerdo : ComensalBase
+public class ComensalCerdo : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Cerdo;
+        tipo = Tipocomensal.Cerdo;
     }
 }
 
-public class ComensalTortuga : ComensalBase
+public class ComensalTortuga : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Tortuga;
+        tipo = Tipocomensal.Tortuga;
     }
 }
 
-public class ComensalRana : ComensalBase
+public class ComensalRana : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Rana;
+        tipo = Tipocomensal.Rana;
     }
 }
 
-public class ComensalOveja : ComensalBase
+public class ComensalOveja : Comensalbase
 {
     protected override void ConfigurarTipo()
     {
-        tipo = TipoComensal.Oveja;
+        tipo = Tipocomensal.Oveja;
     }
 }

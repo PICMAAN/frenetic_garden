@@ -4,10 +4,10 @@ using UnityEngine.UIElements;
 // Se encarga de: guardar que platillo pidio, mostrar y ocultar su globo
 // de dialogo, correr su tiempo de paciencia, y avisar a la fila cuando
 // se va (satisfecho o no).
-public abstract class ComensalBase : MonoBehaviour
+public abstract class Comensalbase : MonoBehaviour
 {
     [Header("Tipo")]
-    public TipoComensal tipo;
+    public Tipocomensal tipo;
 
     [Header("Identificacion")]
     [Tooltip("Nombre que se muestra arriba de la cabeza, editalo aqui para cada comensal")]
@@ -18,10 +18,10 @@ public abstract class ComensalBase : MonoBehaviour
 
     [Header("Referencias")]
     [Tooltip("El globo de dialogo que va arriba de la cabeza de este NPC")]
-    public GloboDialogoNPC globo;
+    public Globodialogonpc globo;
 
     [Tooltip("La etiqueta de nombre estilo Minecraft, siempre visible")]
-    public NametagNPC etiquetaDeNombre;
+    public Nametagnpc etiquetaDeNombre;
 
     private Receta pedidoActual;
     private bool yaFueAtendido = false;
@@ -32,12 +32,12 @@ public abstract class ComensalBase : MonoBehaviour
 
         if (globo == null)
         {
-            globo = GetComponentInChildren<GloboDialogoNPC>();
+            globo = GetComponentInChildren<Globodialogonpc>();
         }
 
         if (etiquetaDeNombre == null)
         {
-            etiquetaDeNombre = GetComponentInChildren<NametagNPC>();
+            etiquetaDeNombre = GetComponentInChildren<Nametagnpc>();
         }
 
         if (etiquetaDeNombre != null)
