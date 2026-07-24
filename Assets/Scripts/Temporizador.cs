@@ -6,8 +6,8 @@ using TMPro;
 
 public class Temporizador : MonoBehaviour
 {
-    [Header("Tiempo")]
-    public float tiempoInicial = 120f; // 2 minutos
+    [Header("Tiempo")] 
+    public float tiempoInicial;
     private bool TransicionIniciada = false;
     private float tiempoRestante;
 

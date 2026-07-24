@@ -4,12 +4,17 @@ using System.Collections;
 
 public class ControladorJugador : MonoBehaviour
 {
-    //VARIABLES DE MOVIMIENTO
+    //VARIABLES DE MOVIMIENTO BASICO
     [SerializeField] private float speed;
     private float moveX;
     private float moveY;
+    
+    //VARIABLES DE DASH
+    [SerializeField] private float fuerzaDash;
     private bool poderHacerDash = true;
     private bool haciendoDash;
+    
+ 
 
     //VARIABLES TIPO ESTRUCTURAS
     Rigidbody2D rb2D;
@@ -52,7 +57,7 @@ public class ControladorJugador : MonoBehaviour
 
         acciones.Player.Move.performed -= movimientoY;
         acciones.Player.Move.canceled -= movimientoY;
-
+        
         acciones.Player.Disable();
     }
 
@@ -97,9 +102,9 @@ public class ControladorJugador : MonoBehaviour
         eventoParticulasDash();
         
         rb2D.linearVelocity = new Vector2(rb2D.linearVelocityY, 0);
-        speed += 9;
+        speed += fuerzaDash;
         yield return new WaitForSeconds(0.5f);
-        speed -= 9;
+        speed -= fuerzaDash;
         
         haciendoDash = false;
         StartCoroutine(cooldownDash());
@@ -110,6 +115,8 @@ public class ControladorJugador : MonoBehaviour
         poderHacerDash = true;
     }
 
+    
+    
     void flip()
     {
         if (rb2D.linearVelocity.x > 0.1f)
