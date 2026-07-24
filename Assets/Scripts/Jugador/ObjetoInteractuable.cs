@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System;
 
-public class CultivosIngredientes : MonoBehaviour
+public class ObjetoInteractuable : MonoBehaviour
 {
     //VARIABLE DE INTERACCION
     private bool jugadorEnRango;
+    public event Action SobreInteractuable;
     
-    
+    //VARIABLES TIPO ESTRUCTURAS
     public InputSystem_Actions acciones;
 
     void Awake()
@@ -38,6 +40,7 @@ public class CultivosIngredientes : MonoBehaviour
         if (jugadorEnRango == true)
         {
             Debug.Log("Evento Interaccion ACTIVADO");
+            SobreInteractuable?.Invoke();   
         }
     }
 

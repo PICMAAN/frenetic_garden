@@ -1,9 +1,0 @@
-using UnityEngine;
-using TMPro;
-
-public class CanvaDirector : MonoBehaviour
-{
-    //VARIABLES
-    
-    
-}
