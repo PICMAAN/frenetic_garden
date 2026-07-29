@@ -2,7 +2,7 @@
 // de ComensalBase (pedido, globo, paciencia, entrega) y solo define
 // su propio TipoComensal.
 
-public class ComensalPollo : Comensalbase
+public class ComensalPollo : ComensalBase
 {
     protected override void ConfigurarTipo()
     {
@@ -10,7 +10,7 @@ public class ComensalPollo : Comensalbase
     }
 }
 
-public class ComensalVaca : Comensalbase
+public class ComensalVaca : ComensalBase
 {
     protected override void ConfigurarTipo()
     {
@@ -18,7 +18,7 @@ public class ComensalVaca : Comensalbase
     }
 }
 
-public class ComensalCerdo : Comensalbase
+public class ComensalCerdo : ComensalBase
 {
     protected override void ConfigurarTipo()
     {
@@ -26,7 +26,7 @@ public class ComensalCerdo : Comensalbase
     }
 }
 
-public class ComensalTortuga : Comensalbase
+public class ComensalTortuga : ComensalBase
 {
     protected override void ConfigurarTipo()
     {
@@ -34,7 +34,7 @@ public class ComensalTortuga : Comensalbase
     }
 }
 
-public class ComensalRana : Comensalbase
+public class ComensalRana : ComensalBase
 {
     protected override void ConfigurarTipo()
     {
@@ -42,7 +42,7 @@ public class ComensalRana : Comensalbase
     }
 }
 
-public class ComensalOveja : Comensalbase
+public class ComensalOveja : ComensalBase
 {
     protected override void ConfigurarTipo()
     {

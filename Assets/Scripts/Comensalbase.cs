@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-// Se encarga de: guardar que platillo pidio, mostrar y ocultar su globo
-// de dialogo, correr su tiempo de paciencia, y avisar a la fila cuando
-// se va (satisfecho o no).
-public abstract class Comensalbase : MonoBehaviour
+// Clase padre de los 6 comensales (Pollo, Vaca, Cerdo, Tortuga, Rana, Oveja).
+// Se encarga de: buscar y ocupar un asiento libre al aparecer (o despawnear
+// si no hay lugar), guardar que platillo pidio, mostrar y ocultar su globo
+// de dialogo, correr su tiempo de paciencia, y liberar el asiento cuando se va.
+public abstract class ComensalBase : MonoBehaviour
 {
     [Header("Tipo")]
     public Tipocomensal tipo;
@@ -16,6 +17,9 @@ public abstract class Comensalbase : MonoBehaviour
     [Header("Paciencia")]
     public float tiempoPacienciaSegundos = 60f;
 
+    [Header("Movimiento")]
+    public float velocidadDeCaminata = 3f;
+
     [Header("Referencias")]
     [Tooltip("El globo de dialogo que va arriba de la cabeza de este NPC")]
     public Globodialogonpc globo;
@@ -25,6 +29,7 @@ public abstract class Comensalbase : MonoBehaviour
 
     private Receta pedidoActual;
     private bool yaFueAtendido = false;
+    private Asiento asientoAsignado;
 
     protected virtual void Awake()
     {
@@ -46,12 +51,39 @@ public abstract class Comensalbase : MonoBehaviour
         }
     }
 
-    // Cada hijo pone aqui su propio tipo de comensal
+    // Cada hijo (ComensalPollo, ComensalVaca, etc) pone aqui su propio TipoComensal
     protected abstract void ConfigurarTipo();
 
-    // Lo llama el GestorSpawnComensales apenas se crea el NPC, ya sea que
-    // caiga directo en la ventanilla o hasta atras de la fila.
-    public void AsignarPedido(Receta receta)
+    // Lo llama el GestorSpawnComensales apenas se crea el NPC.
+    // Busca un asiento libre: si encuentra, se sienta y le muestra el pedido.
+    // Si no hay ningun asiento libre, se va de inmediato sin pedir nada.
+    public void IntentarSentarse(Receta receta)
+    {
+        Asiento asientoLibre = GestorDeAsientos.Instancia.BuscarAsientoLibre();
+
+        if (asientoLibre == null)
+        {
+            Destroy(gameObject); // no hay lugar, se va y despawnea
+            return;
+        }
+
+        asientoAsignado = asientoLibre;
+        asientoLibre.Ocupar(this);
+
+        MovimientoNPC movimiento = GetComponent<MovimientoNPC>();
+        if (movimiento != null)
+        {
+            movimiento.IrHaciaPunto(asientoLibre.puntoDeAsiento, velocidadDeCaminata);
+        }
+        else
+        {
+            transform.position = asientoLibre.puntoDeAsiento.position;
+        }
+
+        AsignarPedido(receta);
+    }
+
+    private void AsignarPedido(Receta receta)
     {
         pedidoActual = receta;
         yaFueAtendido = false;
@@ -70,7 +102,8 @@ public abstract class Comensalbase : MonoBehaviour
         Irse(false);
     }
 
-    // Lo llama la Ventanilla cuando el jugador intenta entregarle un platillo.
+    // Lo llama el Asiento cuando el jugador intenta entregarle un platillo.
+    // Devuelve true solo si el platillo entregado es el que pidio.
     public bool IntentarEntregar(Receta platilloEntregado)
     {
         if (yaFueAtendido) return false;
@@ -88,7 +121,11 @@ public abstract class Comensalbase : MonoBehaviour
 
     private void Irse(bool satisfecho)
     {
-        FilaComensales.Instancia.NotificarSalida(this);
+        if (asientoAsignado != null)
+        {
+            asientoAsignado.Liberar();
+        }
+
         Destroy(gameObject);
     }
 

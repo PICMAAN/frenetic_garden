@@ -1,8 +1,9 @@
 using UnityEngine;
 
-// Se pone en el mismo prefab que ComensalBase. Cada vez que la fila
-// le asigna un nuevo punto (porque alguien se fue de adelante)
-public class MovimientoEnFila : MonoBehaviour
+// Se pone en el mismo prefab que ComensalBase. Hace que el NPC camine
+// hacia el punto que se le indique (en este caso, su asiento asignado)
+// en vez de aparecer ahi de golpe.
+public class MovimientoNPC : MonoBehaviour
 {
     private Transform destinoActual;
     private float velocidadActual = 3f;

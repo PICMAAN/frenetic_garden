@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 // Va arriba de la cabeza de cada NPC (Canvas en World Space).
 // Muestra la imagen del platillo pedido y una barra que se vacia
