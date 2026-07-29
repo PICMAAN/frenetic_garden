@@ -1,17 +1,17 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Se coloca en un prefab de UI con una Image y un TMP_Text
+// Representa un slot visual: icono + numero de cantidad
+// Se coloca en un prefab de UI con una Image y un TMP_Text o Text
 public class SlotInventarioUI : MonoBehaviour
 {
     [Header("Referencias UI")]
     public Image imagenIcono;
-    public TMP_Text textoCantidad;
+    public Text textoCantidad; // si usas TextMeshPro cambia el tipo a TMP_Text
 
-    private Ingredientes ingredienteAsignado;
+    private Ingrediente ingredienteAsignado;
 
-    public void Configurar(Ingredientes ingrediente, int cantidad)
+    public void Configurar(Ingrediente ingrediente, int cantidad)
     {
         ingredienteAsignado = ingrediente;
 
@@ -30,11 +30,11 @@ public class SlotInventarioUI : MonoBehaviour
 
         if (textoCantidad != null)
         {
-            textoCantidad.text = cantidad.ToString();
+            textoCantidad.text = ingrediente.esInfinito ? "\u221E" : cantidad.ToString();
         }
     }
 
-    public Ingredientes ObtenerIngrediente()
+    public Ingrediente ObtenerIngrediente()
     {
         return ingredienteAsignado;
     }
