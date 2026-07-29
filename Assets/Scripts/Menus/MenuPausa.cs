@@ -6,6 +6,9 @@ public class MenuPausa : MonoBehaviour
     //VARIABLES
     private bool estaPausado;
     [SerializeField] private GameObject panelPausa;
+    [SerializeField] public AudioSource musica;
+    
+    //VARIABLES TIPO ESTRUCTURA
     InputSystem_Actions acciones;
     
     void Awake()
@@ -40,12 +43,14 @@ public class MenuPausa : MonoBehaviour
             Time.timeScale = 1f;
             panelPausa.SetActive(false);
             estaPausado = false;
+            musica.UnPause();
         }
         else
         {
             Time.timeScale = 0f;
             panelPausa.SetActive(true);
             estaPausado = true;
+            musica.Pause();
         }
     }
     

@@ -12,7 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menus/MenuPausa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menus/MenuPausa.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menus/Temporizador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menus/Temporizador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sonido/VolumenControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sonido/VolumenControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sonido/DirectorMusica.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorMusica.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sonido/DirectorMusica.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorMusica.mixer.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +106,7 @@
       <workItem from="1784223140559" duration="1271000" />
       <workItem from="1784616765677" duration="715000" />
       <workItem from="1784835963740" duration="541000" />
-      <workItem from="1785303981402" duration="1161000" />
+      <workItem from="1785303981402" duration="5993000" />
     </task>
     <servers />
   </component>

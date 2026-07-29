@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using UnityEditor;
 
 
 public class Temporizador : MonoBehaviour
@@ -27,10 +28,12 @@ public class Temporizador : MonoBehaviour
     [SerializeField] private AnimationClip animacionFadeIn;
     [SerializeField] private AnimationClip animacionFadeOut;
 
+    public MenuPausa music;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        music =  FindFirstObjectByType<MenuPausa>();
     }
     
     void Start()
@@ -40,15 +43,17 @@ public class Temporizador : MonoBehaviour
 
     IEnumerator Transiciones()
     {
+        music.musica.Pause();
+        Time.timeScale = 0f;
         Debug.Log("FadeOut");
         animator.SetTrigger("FadeOut");
-        yield return new WaitForSeconds(animacionFadeOut.length);
+        yield return new WaitForSecondsRealtime(animacionFadeOut.length);
         
         Debug.Log("PanelGameOver");
         panelGameOver.SetActive(true);
         
         animator.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(animacionFadeIn.length);
+        yield return new WaitForSecondsRealtime(animacionFadeIn.length);
         Debug.Log("FadeIn");
     }
 
