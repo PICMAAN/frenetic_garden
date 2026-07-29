@@ -2658,7 +2658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 066790576cf382447839f012ddbc6a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Temporizador
-  tiempoInicial: 240
+  tiempoInicial: 5
   textoTiempo: {fileID: 548959548}
   panelGameOver: {fileID: 2020411883}
   animacionFadeIn: {fileID: 7400000, guid: 2b3ca19a923b0e349ba091f94207e391, type: 2}
