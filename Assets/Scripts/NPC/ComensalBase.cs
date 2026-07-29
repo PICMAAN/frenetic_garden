@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 
 // Clase padre de los 6 comensales (Pollo, Vaca, Cerdo, Tortuga, Rana, Oveja).
 // Se encarga de: buscar y ocupar un asiento libre al aparecer (o despawnear
@@ -26,6 +25,15 @@ public abstract class ComensalBase : MonoBehaviour
 
     [Tooltip("La etiqueta de nombre estilo Minecraft, siempre visible")]
     public Nametagnpc etiquetaDeNombre;
+
+    [Header("Sprites")]
+    public SpriteRenderer spriteRenderer;
+    public Sprite spriteCaminando; // se usa para llegar y para irse, se voltea con flip
+    public Sprite spriteSentado;
+    public Sprite spriteIdo;
+
+    [Tooltip("Cuanto se queda visible con el sprite de ido antes de desaparecer del todo")]
+    public float tiempoVisibleAntesDeIrse = 0.5f;
 
     private Receta pedidoActual;
     private bool yaFueAtendido = false;
@@ -73,11 +81,12 @@ public abstract class ComensalBase : MonoBehaviour
         MovimientoNPC movimiento = GetComponent<MovimientoNPC>();
         if (movimiento != null)
         {
-            movimiento.IrHaciaPunto(asientoLibre.puntoDeAsiento, velocidadDeCaminata);
+            movimiento.IrHaciaPunto(asientoLibre.puntoDeAsiento, velocidadDeCaminata, MostrarSentado);
         }
         else
         {
             transform.position = asientoLibre.puntoDeAsiento.position;
+            MostrarSentado();
         }
 
         AsignarPedido(receta);
@@ -126,11 +135,51 @@ public abstract class ComensalBase : MonoBehaviour
             asientoAsignado.Liberar();
         }
 
-        Destroy(gameObject);
+        MostrarIdo();
+        Destroy(gameObject, tiempoVisibleAntesDeIrse);
     }
 
     public Receta ObtenerPedido()
     {
         return pedidoActual;
+    }
+
+    // Lo llama MovimientoNPC en cada frame mientras se esta moviendo.
+    // direccionX positivo = se mueve a la derecha, negativo = a la izquierda.
+    public void MostrarCaminando(float direccionX)
+    {
+        if (spriteRenderer == null) return;
+
+        if (spriteCaminando != null)
+        {
+            spriteRenderer.sprite = spriteCaminando;
+        }
+
+        if (direccionX > 0.01f)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (direccionX < -0.01f)
+        {
+            spriteRenderer.flipX = true;
+        }
+    }
+
+    // Se llama al llegar al asiento
+    public void MostrarSentado()
+    {
+        if (spriteRenderer != null && spriteSentado != null)
+        {
+            spriteRenderer.sprite = spriteSentado;
+        }
+    }
+
+    // Se llama justo antes de irse, satisfecho o no
+    private void MostrarIdo()
+    {
+        if (spriteRenderer != null && spriteIdo != null)
+        {
+            spriteRenderer.sprite = spriteIdo;
+        }
     }
 }
