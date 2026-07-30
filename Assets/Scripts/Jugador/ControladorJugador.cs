@@ -8,14 +8,15 @@ public class ControladorJugador : MonoBehaviour
     [SerializeField] private float speed;
     private float moveX;
     private float moveY;
-    
+
     //VARIABLES DE DASH
     [SerializeField] private float fuerzaDash;
     [SerializeField] private AnimationClip cLipDash;
     private bool poderHacerDash = true;
     private bool haciendoDash;
-    
- 
+
+    //VARIABLES DE INTERACCION
+    [SerializeField] private float radioDeInteraccion = 0.5f;
 
     //VARIABLES TIPO ESTRUCTURAS
     Rigidbody2D rb2D;
@@ -43,22 +44,26 @@ public class ControladorJugador : MonoBehaviour
 
         acciones.Player.Move.performed += movimientoY;
         acciones.Player.Move.canceled += movimientoY;
-        
+
         acciones.Player.Sprint.performed += eventoDash;
         acciones.Player.Sprint.canceled += eventoDash;
+
+        acciones.Player.Interact.performed += eventoInteractuar;
     }
 
     void OnDisable()
     {
         acciones.Player.Move.performed -= movimientoX;
         acciones.Player.Move.canceled -= movimientoX;
-        
+
         acciones.Player.Sprint.performed -= eventoDash;
         acciones.Player.Sprint.canceled -= eventoDash;
 
         acciones.Player.Move.performed -= movimientoY;
         acciones.Player.Move.canceled -= movimientoY;
-        
+
+        acciones.Player.Interact.performed -= eventoInteractuar;
+
         acciones.Player.Disable();
     }
 
@@ -92,21 +97,21 @@ public class ControladorJugador : MonoBehaviour
                 poderHacerDash = false;
                 StartCoroutine(cooldownDash());
             }
-            
+
         }
-        
+
     }
     IEnumerator movimientoDash()
     {
         poderHacerDash = false;
         haciendoDash = true;
         eventoParticulasDash();
-        
+
         rb2D.linearVelocity = new Vector2(rb2D.linearVelocityY, 0);
         speed += fuerzaDash;
         yield return new WaitForSeconds(cLipDash.length);
         speed -= fuerzaDash;
-        
+
         haciendoDash = false;
         StartCoroutine(cooldownDash());
     }
@@ -116,8 +121,28 @@ public class ControladorJugador : MonoBehaviour
         poderHacerDash = true;
     }
 
-    
-    
+    // Se dispara al presionar Espacio (accion "Interact" del Input System).
+    // Busca cualquier IInteractuable cerca del jugador (cultivos, instrumentos
+    // de cocina, mesas) y le llama Interactuar(). Si hay varios encimados,
+    // solo interactua con el primero que encuentre.
+    void eventoInteractuar(InputAction.CallbackContext ctx)
+    {
+        Collider2D[] cercanos = Physics2D.OverlapCircleAll(transform.position, radioDeInteraccion);
+
+        foreach (Collider2D col in cercanos)
+        {
+            IInteractuable interactuable = col.GetComponent<IInteractuable>();
+
+            if (interactuable != null)
+            {
+                interactuable.Interactuar();
+                break;
+            }
+        }
+    }
+
+
+
     void flip()
     {
         if (rb2D.linearVelocity.x > 0.1f)
@@ -153,12 +178,19 @@ public class ControladorJugador : MonoBehaviour
         {
             rb2D.linearVelocityY = moveY * speed;
             animator.SetFloat("Vy", rb2D.linearVelocityY);
-            flip();  
+            flip();
         }
-        
+
 
         movimientoDiagonal();
         flip();
+    }
+
+    // Solo para ver en el editor que tan grande es el radio de interaccion
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, radioDeInteraccion);
     }
 
 }
