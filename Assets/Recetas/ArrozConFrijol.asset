@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b3c08f0a34e040bbad8a4934f139c, type: 3}
+  m_Name: ArrozConFrijol
+  m_EditorClassIdentifier: Assembly-CSharp::Receta
+  nombrePlatillo: Arroz Con frijol
+  iconoPlatillo: {fileID: 4945088651451459193, guid: 523c9726ff710f1408d5cfdf074981e2, type: 3}
+  prefabPlatilloListo: {fileID: 543199092487012782, guid: 92a79bf8128e2434da6f49725fee32b3, type: 3}
+  ingredientesFijos:
+  - {fileID: 11400000, guid: 4d3d73cdebe9f8243967aae95a4e2e01, type: 2}
+  - {fileID: 11400000, guid: 480d7bf5ddfd7c54fb1aa6d0323094e5, type: 2}
+  ingredientesAlternativos: []

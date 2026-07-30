@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b3c08f0a34e040bbad8a4934f139c, type: 3}
+  m_Name: ArrozConGuiso
+  m_EditorClassIdentifier: Assembly-CSharp::Receta
+  nombrePlatillo: Arroz Con Guiso
+  iconoPlatillo: {fileID: 7534764351382159107, guid: 3878c6217bab3db4cb9948037caa94a8, type: 3}
+  prefabPlatilloListo: {fileID: 41395758965391874, guid: 605dfbb604ca4364a86dbc4e25f695b9, type: 3}
+  ingredientesFijos:
+  - {fileID: 11400000, guid: 4d3d73cdebe9f8243967aae95a4e2e01, type: 2}
+  - {fileID: 11400000, guid: c2e7ac9c0acc02f488916e27a47af1f1, type: 2}
+  - {fileID: 11400000, guid: df50f323de0cf67459cc650ffdcac07f, type: 2}
+  - {fileID: 11400000, guid: 8900f520058fcef458c0b1129d2d56fc, type: 2}
+  ingredientesAlternativos: []

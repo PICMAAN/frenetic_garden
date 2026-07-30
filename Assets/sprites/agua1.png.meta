@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 53e76008e05da874dac1783718c36c24
+guid: e4cb84328d546bf47b4649b9e60ebe65
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6867969499984953432
-    second: verduras asadas-Sheet_0
+      213: -4358115569358007938
+    second: agua1_0
+  - first:
+      213: 4254146280331201339
+    second: agua1_1
+  - first:
+      213: -8444952395577382942
+    second: agua1_2
+  - first:
+      213: -6428237607726918121
+    second: agua1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +109,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: verduras asadas-Sheet_0
+      name: agua1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 400
-        height: 80
+        x: 246
+        y: 4
+        width: 596
+        height: 723
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85002d64fddef4f50800000000000000
-      internalID: 6867969499984953432
+      spriteID: e71115edafcd483c0800000000000000
+      internalID: -4358115569358007938
       vertices: []
       indices: 
       edges: []
@@ -125,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7b4d302562c083a46990a3f147cd23ef
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +144,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      verduras asadas-Sheet_0: 6867969499984953432
+      agua1_0: -4358115569358007938
+      agua1_1: 4254146280331201339
+      agua1_2: -8444952395577382942
+      agua1_3: -6428237607726918121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

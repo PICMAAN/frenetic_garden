@@ -5,6 +5,33 @@ TextureImporter:
   - first:
       213: 856276229502992486
     second: Sopa de papa-Sheet_0
+  - first:
+      213: -7465662698062255408
+    second: Sopa de papa-Sheet_1
+  - first:
+      213: -3843916102733664022
+    second: Sopa de papa-Sheet_2
+  - first:
+      213: -2062027029682411743
+    second: Sopa de papa-Sheet_3
+  - first:
+      213: -2482859425111704856
+    second: Sopa de papa-Sheet_4
+  - first:
+      213: 1147445807152653801
+    second: Sopa de papa-Sheet_5
+  - first:
+      213: -5791308306355107415
+    second: Sopa de papa-Sheet_6
+  - first:
+      213: 4595885036944762189
+    second: Sopa de papa-Sheet_7
+  - first:
+      213: 7287307019187438671
+    second: Sopa de papa-Sheet_8
+  - first:
+      213: 6486099546365256597
+    second: Sopa de papa-Sheet_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,10 +132,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
+        width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +148,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sopa de papa-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da6d15b453a46890800000000000000
+      internalID: -7465662698062255408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sopa de papa-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0f726abaaa7aac0800000000000000
+      internalID: -3843916102733664022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sopa de papa-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127a68277553263e0800000000000000
+      internalID: -2062027029682411743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sopa de papa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea7cf2f18c1b8dd0800000000000000
+      internalID: -2482859425111704856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 78198e2c5ed2e7c4faa2759726e89ec6
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +248,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Sopa de papa-Sheet_0: 856276229502992486
+      Sopa de papa-Sheet_1: -7465662698062255408
+      Sopa de papa-Sheet_2: -3843916102733664022
+      Sopa de papa-Sheet_3: -2062027029682411743
+      Sopa de papa-Sheet_4: -2482859425111704856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

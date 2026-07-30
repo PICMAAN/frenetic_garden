@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b3c08f0a34e040bbad8a4934f139c, type: 3}
+  m_Name: SopaDeVerdura
+  m_EditorClassIdentifier: Assembly-CSharp::Receta
+  nombrePlatillo: Sopa De Verdura
+  iconoPlatillo: {fileID: 1574352125750359317, guid: fc1b6b4fc3e2976419e3769831957e76, type: 3}
+  prefabPlatilloListo: {fileID: 8073135204706741861, guid: e081da2655d91c74dae0f96b737d7ac9, type: 3}
+  ingredientesFijos:
+  - {fileID: 11400000, guid: c2e7ac9c0acc02f488916e27a47af1f1, type: 2}
+  - {fileID: 11400000, guid: c29eb462474267f469cbc67c78d20e77, type: 2}
+  - {fileID: 11400000, guid: 8d2f76490b4bc464f94e9d7c3bc9f671, type: 2}
+  - {fileID: 11400000, guid: 59bb1d8f6574af1428a5e41814e8ab8b, type: 2}
+  ingredientesAlternativos: []

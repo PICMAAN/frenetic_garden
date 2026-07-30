@@ -127,12 +127,12 @@ TextureImporter:
       name: arroz con guiso-Sheet_0
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
-        width: 50
-        height: 34
+        x: 0
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: arroz con guiso-Sheet_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 39
-        width: 9
-        height: 11
+        x: 80
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: arroz con guiso-Sheet_2
       rect:
         serializedVersion: 2
-        x: 197
-        y: 48
-        width: 19
-        height: 6
+        x: 160
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: arroz con guiso-Sheet_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 43
-        width: 6
-        height: 6
+        x: 240
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: arroz con guiso-Sheet_4
       rect:
         serializedVersion: 2
-        x: 255
-        y: 15
-        width: 50
-        height: 38
+        x: 320
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,99 +233,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: arroz con guiso-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 42
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27bca23f1561b0b00800000000000000
-      internalID: 795754300388854642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arroz con guiso-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 15
-        width: 50
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a4b471d17ecb9760800000000000000
-      internalID: 7465787795537441956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arroz con guiso-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 15
-        width: 50
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dec8992014d978e0800000000000000
-      internalID: -1695090618845835560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arroz con guiso-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 15
-        width: 50
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1fe32e5f5f595380800000000000000
-      internalID: -8982043118607798502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d614e3f032fa5574b82c175224dbcc0b
     internalID: 0
     vertices: []
     indices: 
@@ -333,17 +245,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       arroz con guiso-Sheet_0: 7534764351382159107
       arroz con guiso-Sheet_1: -3828253620002517380
       arroz con guiso-Sheet_2: -2650230154009681123
       arroz con guiso-Sheet_3: -2843617175655942664
       arroz con guiso-Sheet_4: -2234697894852798161
-      arroz con guiso-Sheet_5: 795754300388854642
-      arroz con guiso-Sheet_6: 7465787795537441956
-      arroz con guiso-Sheet_7: -1695090618845835560
-      arroz con guiso-Sheet_8: -8982043118607798502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

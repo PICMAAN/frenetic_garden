@@ -5,6 +5,21 @@ TextureImporter:
   - first:
       213: 7017527943392648098
     second: arroz con verduras-Sheet_0
+  - first:
+      213: -8384659404950123600
+    second: arroz con verduras-Sheet_1
+  - first:
+      213: -142108364694809569
+    second: arroz con verduras-Sheet_2
+  - first:
+      213: 210768578152295792
+    second: arroz con verduras-Sheet_3
+  - first:
+      213: 1588775090269491614
+    second: arroz con verduras-Sheet_4
+  - first:
+      213: -3883452822883943975
+    second: arroz con verduras-Sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,10 +120,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
+        width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +136,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: arroz con verduras-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb4f4de1b4b3ab80800000000000000
+      internalID: -8384659404950123600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arroz con verduras-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1411caf131270ef0800000000000000
+      internalID: -142108364694809569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arroz con verduras-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07de496b7eccce200800000000000000
+      internalID: 210768578152295792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arroz con verduras-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e919083e6867c0610800000000000000
+      internalID: 1588775090269491614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: daeed6a3dd80f204db7cd4c51001ea0f
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +236,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       arroz con verduras-Sheet_0: 7017527943392648098
+      arroz con verduras-Sheet_1: -8384659404950123600
+      arroz con verduras-Sheet_2: -142108364694809569
+      arroz con verduras-Sheet_3: 210768578152295792
+      arroz con verduras-Sheet_4: 1588775090269491614
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

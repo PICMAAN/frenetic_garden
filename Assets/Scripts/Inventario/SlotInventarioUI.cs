@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 // Representa un slot visual: icono + numero de cantidad
 // Se coloca en un prefab de UI con una Image y un TMP_Text o Text
@@ -7,7 +8,7 @@ public class SlotInventarioUI : MonoBehaviour
 {
     [Header("Referencias UI")]
     public Image imagenIcono;
-    public Text textoCantidad; // si usas TextMeshPro cambia el tipo a TMP_Text
+    public TMP_Text textoCantidad; // si usas TextMeshPro cambia el tipo a TMP_Text
 
     private Ingrediente ingredienteAsignado;
 
