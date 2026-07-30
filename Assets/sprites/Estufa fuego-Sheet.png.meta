@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 98b9a3061d24d7b47b1df92edf3a3743
+guid: ac7276451ff813e45be2b11e17e2902f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6058986603556120660
-    second: Caminata Iz chango-Sheet_0
+      213: 6966609313956933729
+    second: Estufa fuego-Sheet_0
   - first:
-      213: -3470767801503580397
-    second: Caminata Iz chango-Sheet_1
+      213: -976396039366105800
+    second: Estufa fuego-Sheet_1
   - first:
-      213: 5075254339342561199
-    second: Caminata Iz chango-Sheet_2
+      213: 378133037843169076
+    second: Estufa fuego-Sheet_2
   - first:
-      213: -2235123045000636282
-    second: Caminata Iz chango-Sheet_3
+      213: -2580081834848737945
+    second: Estufa fuego-Sheet_3
   - first:
-      213: 5585458181705079271
-    second: Caminata Iz chango-Sheet_4
+      213: -3535007876342015443
+    second: Estufa fuego-Sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,111 +112,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_0
+      name: Estufa fuego-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 7
         y: 0
-        width: 134
-        height: 157
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45820dbc638d51450800000000000000
-      internalID: 6058986603556120660
+      spriteID: 160b457a24e5ea060800000000000000
+      internalID: 6966609313956933729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_1
+      name: Estufa fuego-Sheet_1
       rect:
         serializedVersion: 2
-        x: 159
+        x: 55
         y: 0
-        width: 128
-        height: 163
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31ff38dc21b55dfc0800000000000000
-      internalID: -3470767801503580397
+      spriteID: 8352c71b9f42372f0800000000000000
+      internalID: -976396039366105800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_2
+      name: Estufa fuego-Sheet_2
       rect:
         serializedVersion: 2
-        x: 302
+        x: 103
         y: 0
-        width: 134
-        height: 156
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fafe5498eecee6640800000000000000
-      internalID: 5075254339342561199
+      spriteID: 43f3b769ef56f3500800000000000000
+      internalID: 378133037843169076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_3
+      name: Estufa fuego-Sheet_3
       rect:
         serializedVersion: 2
-        x: 453
-        y: 1
-        width: 128
-        height: 159
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 151
+        y: 0
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6889279ce6f3bf0e0800000000000000
-      internalID: -2235123045000636282
+      spriteID: 7652766bd35b13cd0800000000000000
+      internalID: -2580081834848737945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_4
+      name: Estufa fuego-Sheet_4
       rect:
         serializedVersion: 2
-        x: 603
-        y: 1
-        width: 135
-        height: 161
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 199
+        y: 0
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e9945c8f98838d40800000000000000
-      internalID: 5585458181705079271
+      spriteID: d2a1d64d01121fec0800000000000000
+      internalID: -3535007876342015443
       vertices: []
       indices: 
       edges: []
@@ -225,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51679c5456ff4014eb5197faa42a8c4a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Caminata Iz chango-Sheet_0: 6058986603556120660
-      Caminata Iz chango-Sheet_1: -3470767801503580397
-      Caminata Iz chango-Sheet_2: 5075254339342561199
-      Caminata Iz chango-Sheet_3: -2235123045000636282
-      Caminata Iz chango-Sheet_4: 5585458181705079271
+      Estufa fuego-Sheet_0: 6966609313956933729
+      Estufa fuego-Sheet_1: -976396039366105800
+      Estufa fuego-Sheet_2: 378133037843169076
+      Estufa fuego-Sheet_3: -2580081834848737945
+      Estufa fuego-Sheet_4: -3535007876342015443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

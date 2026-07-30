@@ -13,16 +13,18 @@
     <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONESC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONESC.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONPAUSA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONPAUSA.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONPLAY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONPLAY.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mapa/Horno.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Horno.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mesa.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Mesa.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mueble.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Mueble.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mueble_Mediano.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Mueble_Mediano.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mueble_Pequeño.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Mueble_Pequeño.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Dr chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Caminata Dr chango-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Iz chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Caminata Iz chango-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata abajo_Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Caminata abajo_Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata arriba-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Caminata arriba-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Chango dash, lateral-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Chango dash, lateral-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Idle.chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Idle.chango-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +116,7 @@
       <workItem from="1784835963740" duration="541000" />
       <workItem from="1785303981402" duration="11302000" />
       <workItem from="1785370403805" duration="2775000" />
+      <workItem from="1785397790710" duration="643000" />
     </task>
     <servers />
   </component>

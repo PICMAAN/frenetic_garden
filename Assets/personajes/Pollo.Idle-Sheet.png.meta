@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 98b9a3061d24d7b47b1df92edf3a3743
+guid: 286d684489c934348b15fc8a983264d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6058986603556120660
-    second: Caminata Iz chango-Sheet_0
+      213: 6031898851812297103
+    second: Pollo.Idle-Sheet_0
   - first:
-      213: -3470767801503580397
-    second: Caminata Iz chango-Sheet_1
-  - first:
-      213: 5075254339342561199
-    second: Caminata Iz chango-Sheet_2
-  - first:
-      213: -2235123045000636282
-    second: Caminata Iz chango-Sheet_3
-  - first:
-      213: 5585458181705079271
-    second: Caminata Iz chango-Sheet_4
+      213: 4830761906335181424
+    second: Pollo.Idle-Sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,111 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_0
+      name: Pollo.Idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 134
-        height: 157
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45820dbc638d51450800000000000000
-      internalID: 6058986603556120660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 0
-        width: 128
-        height: 163
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31ff38dc21b55dfc0800000000000000
-      internalID: -3470767801503580397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 0
-        width: 134
-        height: 156
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fafe5498eecee6640800000000000000
-      internalID: 5075254339342561199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 453
+        x: 45
         y: 1
-        width: 128
-        height: 159
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 71
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6889279ce6f3bf0e0800000000000000
-      internalID: -2235123045000636282
+      spriteID: f89cb5f1c0c95b350800000000000000
+      internalID: 6031898851812297103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Caminata Iz chango-Sheet_4
+      name: Pollo.Idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 603
+        x: 195
         y: 1
-        width: 135
-        height: 161
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 71
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e9945c8f98838d40800000000000000
-      internalID: 5585458181705079271
+      spriteID: 07ae89dfb505a0340800000000000000
+      internalID: 4830761906335181424
       vertices: []
       indices: 
       edges: []
@@ -225,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51679c5456ff4014eb5197faa42a8c4a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Caminata Iz chango-Sheet_0: 6058986603556120660
-      Caminata Iz chango-Sheet_1: -3470767801503580397
-      Caminata Iz chango-Sheet_2: 5075254339342561199
-      Caminata Iz chango-Sheet_3: -2235123045000636282
-      Caminata Iz chango-Sheet_4: 5585458181705079271
+      Pollo.Idle-Sheet_0: 6031898851812297103
+      Pollo.Idle-Sheet_1: 4830761906335181424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
