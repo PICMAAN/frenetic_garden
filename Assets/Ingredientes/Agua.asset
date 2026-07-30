@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Agua
   m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
   nombreIngrediente: Agua
-  icono: {fileID: -4358115569358007938, guid: e4cb84328d546bf47b4649b9e60ebe65, type: 3}
+  icono: {fileID: -8623618863599700181, guid: 3b0f8a10c14bab14db33b6dab8130095, type: 3}
   esInfinito: 1
   tiempoDeCrecimiento: 0
