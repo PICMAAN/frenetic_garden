@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 07dd49e5db91c2343876690c76053841
+guid: 743fa5146275791478a1f2d1034b610e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5595548382698225417
-    second: Untitled 07-23-2026 01-02-06_0
-  - first:
-      213: 8451233811089383224
-    second: Untitled 07-23-2026 01-02-06_1
+      213: 647979536588038774
+    second: image-removebg-preview (6)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled 07-23-2026 01-02-06_0
+      name: image-removebg-preview (6)_0
       rect:
         serializedVersion: 2
-        x: 187
-        y: 215
-        width: 766
-        height: 610
+        x: 110
+        y: 151
+        width: 287
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f0c2c5746e9852b0800000000000000
-      internalID: -5595548382698225417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled 07-23-2026 01-02-06_1
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 127
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83fd0c7ef50d84570800000000000000
-      internalID: 8451233811089383224
+      spriteID: 6726d0494f51ef800800000000000000
+      internalID: 647979536588038774
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled 07-23-2026 01-02-06_0: -5595548382698225417
-      Untitled 07-23-2026 01-02-06_1: 8451233811089383224
+      image-removebg-preview (6)_0: 647979536588038774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

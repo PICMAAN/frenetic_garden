@@ -12,9 +12,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Jugador/ControladorJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Jugador/ControladorJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Chango dash, lateral-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Chango dash, lateral-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Idle.chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Idle.chango-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONESC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONESC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONPAUSA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONPAUSA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/BOTONPLAY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/BOTONPLAY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +113,7 @@
       <workItem from="1784616765677" duration="715000" />
       <workItem from="1784835963740" duration="541000" />
       <workItem from="1785303981402" duration="11302000" />
-      <workItem from="1785370403805" duration="1579000" />
+      <workItem from="1785370403805" duration="2775000" />
     </task>
     <servers />
   </component>
