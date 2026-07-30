@@ -10,21 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sonido/DirectorGeneral.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorGeneral.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/ParedMadera.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/Pasto.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Square.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/SueloMadera.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Tile_Maps2.aseprite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Tile_Maps2.aseprite.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +41,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "desarrollo",
+    "git-widget-placeholder": "feature/TilesMap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,7 +99,7 @@
       <workItem from="1784223140559" duration="1271000" />
       <workItem from="1784616765677" duration="715000" />
       <workItem from="1784835963740" duration="541000" />
-      <workItem from="1785303981402" duration="8252000" />
+      <workItem from="1785303981402" duration="11302000" />
     </task>
     <servers />
   </component>

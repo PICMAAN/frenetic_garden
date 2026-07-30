@@ -18,7 +18,7 @@ public class ControladorJugador : MonoBehaviour
 
     //VARIABLES TIPO ESTRUCTURAS
     Rigidbody2D rb2D;
-    //Animator animator;
+    Animator animator;
     public InputSystem_Actions acciones;
     private SpriteRenderer spriteRenderer;
     [SerializeField] private ParticleSystem particulasDash;
@@ -27,7 +27,7 @@ public class ControladorJugador : MonoBehaviour
     private void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         acciones = new InputSystem_Actions();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -145,13 +145,13 @@ public class ControladorJugador : MonoBehaviour
     private void FixedUpdate()
     {
         rb2D.linearVelocityX = moveX * speed;
-        //animator.SetFloat("Vx", Mathf.Abs(rb2D.linearVelocityX));
+        animator.SetFloat("Vx", Mathf.Abs(rb2D.linearVelocityX));
         flip();
 
         if (haciendoDash == false)
         {
             rb2D.linearVelocityY = moveY * speed;
-            //animator.SetFloat("Vy", rb2D.linearVelocityY);
+            animator.SetFloat("Vy", rb2D.linearVelocityY);
             flip();  
         }
         
