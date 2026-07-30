@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b0f8a10c14bab14db33b6dab8130095
+guid: 86aa283510719b24bafe86c9efe9a7b8
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,89 +109,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: agua_0
+      name: Arroz con frijol-Sheet_0
       rect:
         serializedVersion: 2
-        x: 252
-        y: 7
-        width: 561
-        height: 715
+        x: 0
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2738cc5550c25880800000000000000
-      internalID: -8623618863599700181
+      spriteID: f5d7c8cd60bd75244a21253ac8c9ba9b
+      internalID: 1549663741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: agua_1
+      name: Arroz con frijol-Sheet_1
       rect:
         serializedVersion: 2
-        x: 812
-        y: 540
-        width: 13
-        height: 27
+        x: 80
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25faa8d79af1aacf0800000000000000
-      internalID: -240344817294725294
+      spriteID: d63be7df619164d4081ab526bb925261
+      internalID: -1287369140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: agua_2
+      name: Arroz con frijol-Sheet_2
       rect:
         serializedVersion: 2
-        x: 826
-        y: 397
-        width: 10
-        height: 145
+        x: 160
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91778e865736ddcb0800000000000000
-      internalID: -4837601068803655911
+      spriteID: f6b0e6f0031c7ca4fa0c38223a1d02e1
+      internalID: 658882651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: agua_3
+      name: Arroz con frijol-Sheet_3
       rect:
         serializedVersion: 2
-        x: 812
-        y: 254
-        width: 11
-        height: 141
+        x: 240
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc7baffdcb24384a0800000000000000
-      internalID: -6592352050561239092
+      spriteID: 7901dc889caf4fb479fd4a76a98eab86
+      internalID: 827249683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arroz con frijol-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9175433284317049bdcbe10ebc1a228
+      internalID: -1663477411
       vertices: []
       indices: 
       edges: []
@@ -200,7 +222,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 39051139a1263f44785ed4c5855c6f8c
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +230,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      agua_0: -8623618863599700181
-      agua_1: -240344817294725294
-      agua_2: -4837601068803655911
-      agua_3: -6592352050561239092
+      Arroz con frijol-Sheet_0: 1549663741
+      Arroz con frijol-Sheet_1: -1287369140
+      Arroz con frijol-Sheet_2: 658882651
+      Arroz con frijol-Sheet_3: 827249683
+      Arroz con frijol-Sheet_4: -1663477411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
