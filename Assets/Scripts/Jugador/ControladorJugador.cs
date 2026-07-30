@@ -11,6 +11,7 @@ public class ControladorJugador : MonoBehaviour
     
     //VARIABLES DE DASH
     [SerializeField] private float fuerzaDash;
+    [SerializeField] private AnimationClip cLipDash;
     private bool poderHacerDash = true;
     private bool haciendoDash;
     
@@ -103,7 +104,7 @@ public class ControladorJugador : MonoBehaviour
         
         rb2D.linearVelocity = new Vector2(rb2D.linearVelocityY, 0);
         speed += fuerzaDash;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(cLipDash.length);
         speed -= fuerzaDash;
         
         haciendoDash = false;
