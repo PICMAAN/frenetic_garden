@@ -11,336 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d86fe19-0ffe-47bf-93f4-72a0ec89a7c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Configuracion.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Configuracion.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Jugador/Sorting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Jugador/Sorting.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorSonido.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorSonido.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sonido/VolumenGeneral.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sonido/VolumenGeneral.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Dash.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/JefeIn.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/JefeIn.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/JefeOut.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/animaciones/Transiciones/JefeOut.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/04.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/AnimacionesControl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/AnimacionesControl/ControlParpadeo.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/AnimacionesControl/ControlParpadeo.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/AnimacionesControl/Controles.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/AnimacionesControl/Controles.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONESC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONESC.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONPAUSA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONPAUSA.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONPLAY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/BOTONPLAY.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Namistre SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Namistre SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Namistre.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Namistre.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Star Crush SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Star Crush SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Star Crush.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Fonds/Star Crush.otf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Keyboard Extras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Keyboard Extras.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Keyboard Letters and Symbols.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/Keyboard Letters and Symbols.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/UI_Font_B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/UI_Font_B.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/image-removebg-preview (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/image-removebg-preview (6).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/silver_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/silver_panel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/wood_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Menus/wood_panel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Platillos.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Cuchillos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Cuchillos.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Estufa fuego-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Estufa fuego-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Estufa horno-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Estufa horno-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Materials/Mesa_Larga.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Materials/Mesa_Larga.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Materials/Mueble_Mediano.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Materials/Mueble_Mediano.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa_Larga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa_Larga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble_Mediano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble_Mediano.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble_Pequeño.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mueble_Pequeño.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Planta-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Planta-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Ventana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Ventana.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Ventana2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Ventana2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/CaraJefe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/CaraJefe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Chango dash, lateral-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Chango dash, lateral-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Idle.Rana-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Idle.chango-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Idle.chango-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Oveja.Caminata-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Oveja.Caminata-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Oveja.Idle-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Oveja.Idle-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Pollo.Caminata-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Pollo.Caminata-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Pollo.Idle-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Pollo.Idle-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Rana.Caminata-Sheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Rana.Caminata-Sheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Tortuga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Tortuga.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.frenetic_garden/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmmanuelPruebas.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuPrincipal.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Jugador/ControladorJugador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Jugador/ControladorJugador.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sonido/DirectorGeneral.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sonido/DirectorGeneral.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/Jugador.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animaciones/Personaje/idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Barras_Cocina_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Barras_Cocina_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Cocina.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Cocina.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Cocina.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Cocina.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Horno.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Horno.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Horno.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Horno.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Licuadora.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Licuadora.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Licuadora_Animacion.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Licuadora_Animacion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mesa.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mesa.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mesa_Cubierta.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa_Cubierta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Mesa_Cubierta.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Mesa_Cubierta.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Olla.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Olla_Vapor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_9.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/ParedMadera_9.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/ParedMadera_9.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_10.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_10.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_10.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_10.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_11.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_11.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_11.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_11.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_12.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_12.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_12.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_12.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_9.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Pasto_9.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Pasto_9.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Patio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Patio.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Patio.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Patio.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Piso.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Piso.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Piso.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Piso.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/SueloMadera_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/SueloMadera_8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_9.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_9.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps1-Sheet_9.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps1-Sheet_9.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_0.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_0.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_3.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_4.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_6.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_7.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_7.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_7.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_8.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_8.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TileMaps2-Sheet_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TileMaps2-Sheet_8.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Tronco.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Tronco.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Tronco.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Tronco.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TroncoPared.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TroncoPared.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/TroncoPared.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/TroncoPared.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/Valla.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/Valla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/patio 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/patio 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mapa/patio 2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/mapa/patio 2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/20260716_163155.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/20260716_163155.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/20260716_163155.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/20260716_163155.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/20260716_163203.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/20260716_163203.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/20260716_163203.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/20260716_163203.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Dr chango-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata Dr chango-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Dr chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata Dr chango-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Iz chango-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata Iz chango-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata Iz chango-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata Iz chango-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata abajo_Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata abajo_Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata abajo_Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata abajo_Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata arriba-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata arriba-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Caminata arriba-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Caminata arriba-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_134327_Clip Studio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_134327_Clip Studio.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_134327_Clip Studio.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_134327_Clip Studio.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_134343_Clip Studio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_134343_Clip Studio.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_134343_Clip Studio.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_134343_Clip Studio.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_135330_Clip Studio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_135330_Clip Studio.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Screenshot_20260716_135330_Clip Studio.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Screenshot_20260716_135330_Clip Studio.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Square.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Square.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Square.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Untitled 07-23-2026 01-02-06 (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06 (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Untitled 07-23-2026 01-02-06 (1).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Untitled 07-23-2026 01-02-06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/personajes/Untitled 07-23-2026 01-02-06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Untitled 07-23-2026 01-02-06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Arroz con frijol-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Arroz con frijol-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Arroz con frijol-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Arroz con frijol-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Arroz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Arroz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Arroz.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Arroz.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Brocheta-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Brocheta-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Brocheta-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Brocheta-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Brocoli.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Brocoli.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Brocoli.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Brocoli.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Cebolla.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Cebolla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Cebolla.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Cebolla.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Fresas.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Fresas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Fresas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Fresas.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Jitomate.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Jitomate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Jitomate.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Jitomate.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Legumbres.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Legumbres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Legumbres.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Legumbres.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Melon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Melon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Melon.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Melon.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Pan de platano-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Pan de platano-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Pan de platano-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Pan de platano-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Papa.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Papa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Papa.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Papa.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Pimiento.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Pimiento.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Pimiento.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Pimiento.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Platano.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Platano.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Platano.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Platano.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Repollo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Repollo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Repollo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Repollo.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Sandia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Sandia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Sandia.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Sandia.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Sopa de papa-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Sopa de papa-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Sopa de papa-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/Sopa de papa-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/personajes/Idle.Rana-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Zanahoria.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Zanahoria.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Zanahoria.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Ingredientes/Zanahoria.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/agua fresca-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/agua fresca-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/agua fresca-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/agua fresca-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/arroz con guiso-Sheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/arroz con guiso-Sheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/arroz con guiso-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/arroz con guiso-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/arroz con verduras-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/arroz con verduras-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/arroz con verduras-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/arroz con verduras-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/sopa de verdura-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/sopa de verdura-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/sopa de verdura-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/sopa de verdura-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/verduras asadas-Sheet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/verduras asadas-Sheet.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/verduras asadas-Sheet.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Platillos/verduras asadas-Sheet.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,25 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Merging desarrollo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;desarrollo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe" />
@@ -433,6 +106,7 @@
       <workItem from="1785303981402" duration="11302000" />
       <workItem from="1785370403805" duration="2775000" />
       <workItem from="1785397790710" duration="1830000" />
+      <workItem from="1785436873874" duration="2614000" />
     </task>
     <servers />
   </component>

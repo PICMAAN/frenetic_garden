@@ -931,11 +931,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: DirectorSonido
       objectReference: {fileID: 0}
+    - target: {fileID: 7992117948761832168, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b30dc76b1f237840bb7f3fa87d98dc6, type: 3}
+    - target: {fileID: 8607583043720543949, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+      propertyPath: m_Name
+      value: MusicaFondo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5968226262970130519, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878514826245551888, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125754358}
   m_SourcePrefab: {fileID: 100100000, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+--- !u!82 &1125754356 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7992117948761832168, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+  m_PrefabInstance: {fileID: 1125754355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1125754357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7878514826245551888, guid: 5583117bef737db4f9ad4cbdc5f120d2, type: 3}
+  m_PrefabInstance: {fileID: 1125754355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125754358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125754357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b34ea3d7b3e9a94b89cd4d45b608d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicManager
+  audioSource: {fileID: 1125754356}
+  musicaMenu: {fileID: 8300000, guid: 3b30dc76b1f237840bb7f3fa87d98dc6, type: 3}
+  musicaJuego: {fileID: 8300000, guid: 4b540d0bb3977d543b3f12bf4b482d05, type: 3}
 --- !u!1 &1296053278
 GameObject:
   m_ObjectHideFlags: 0

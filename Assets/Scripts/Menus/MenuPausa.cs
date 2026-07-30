@@ -3,56 +3,69 @@ using UnityEngine.InputSystem;
 
 public class MenuPausa : MonoBehaviour
 {
-    //VARIABLES
     private bool estaPausado;
     [SerializeField] private GameObject panelPausa;
-    [SerializeField] public AudioSource musica;
-    
-    //VARIABLES TIPO ESTRUCTURA
-    InputSystem_Actions acciones;
-    
-    void Awake()
+
+    private InputSystem_Actions acciones;
+
+    private void Awake()
     {
         acciones = new InputSystem_Actions();
-        Time.timeScale = 1f;           //Obliga a empezar el juego siempre activo despues del cambio de escena que pausa el tiempo.
-        panelPausa.SetActive(false);   //Obliga a tener internamente el panelPausa desativado para no dar doble click equilibrando los estados del if de abajo
+        Time.timeScale = 1f; // Garantiza que el juego arranque a velocidad normal
+        if (panelPausa != null)
+        {
+            panelPausa.SetActive(false);
+        }
     }
-    
-    void OnEnable()
+
+    private void OnEnable()
     {
         acciones.Player.Enable();
-        
-        acciones.Player.Pausa.performed += pausa;
+        acciones.Player.Pausa.performed += Pausa;
     }
-    
-    void OnDisable()
+
+    private void OnDisable()
     {
-        acciones.Player.Pausa.performed -= pausa;
-        
+        acciones.Player.Pausa.performed -= Pausa;
         acciones.Player.Disable();
     }
-    
-    public void pausa(InputAction.CallbackContext ctx)
+
+    public void Pausa(InputAction.CallbackContext ctx)
     {
-        cambioEstadoPausa();
+        CambioEstadoPausa();
     }
-    public void cambioEstadoPausa()
+
+    public void CambioEstadoPausa()
     {
-        if (estaPausado == true)
+        estaPausado = !estaPausado;
+
+        if (estaPausado)
         {
-            Time.timeScale = 1f;
-            panelPausa.SetActive(false);
-            estaPausado = false;
-            musica.UnPause();
+            Time.timeScale = 0f;
+            if (panelPausa != null) panelPausa.SetActive(true);
+
+            // Le pedimos al MusicManager persistente que pause
+            if (MusicManager.Instance != null)
+            {
+                MusicManager.Instance.PausarMusica();
+            }
         }
         else
         {
-            Time.timeScale = 0f;
-            panelPausa.SetActive(true);
-            estaPausado = true;
-            musica.Pause();
+            Time.timeScale = 1f;
+            if (panelPausa != null) panelPausa.SetActive(false);
+
+            // Le pedimos al MusicManager persistente que reanude
+            if (MusicManager.Instance != null)
+            {
+                MusicManager.Instance.ReanudarMusica();
+            }
         }
     }
-    
 
+    // Aseguramos que si destruyes este panel (por cambiar de escena), el tiempo vuelva a 1
+    private void OnDestroy()
+    {
+        Time.timeScale = 1f;
+    }
 }
