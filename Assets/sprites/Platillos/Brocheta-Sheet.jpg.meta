@@ -5,6 +5,24 @@ TextureImporter:
   - first:
       213: 5293481558350173278
     second: Brocheta-Sheet_0
+  - first:
+      213: -6645790841790206493
+    second: Brocheta-Sheet_1
+  - first:
+      213: 2089828338227901151
+    second: Brocheta-Sheet_2
+  - first:
+      213: -7323606210890911065
+    second: Brocheta-Sheet_3
+  - first:
+      213: 913080488930416886
+    second: Brocheta-Sheet_4
+  - first:
+      213: -444765326024778986
+    second: Brocheta-Sheet_5
+  - first:
+      213: 1030387627584932386
+    second: Brocheta-Sheet_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,10 +123,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
+        width: 80
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +139,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Brocheta-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edec87b07865c3a0800000000000000
+      internalID: -6645790841790206493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brocheta-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd27e9d1dcf800d10800000000000000
+      internalID: 2089828338227901151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brocheta-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2b00d04f25d5a90800000000000000
+      internalID: -7323606210890911065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brocheta-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f89902fdd9ebac00800000000000000
+      internalID: 913080488930416886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 231d7b0b45842bd4295035cb78cd4210
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +239,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Brocheta-Sheet_0: 5293481558350173278
+      Brocheta-Sheet_1: -6645790841790206493
+      Brocheta-Sheet_2: 2089828338227901151
+      Brocheta-Sheet_3: -7323606210890911065
+      Brocheta-Sheet_4: 913080488930416886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

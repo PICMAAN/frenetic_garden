@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: cceb0040dc7472b42a1f31f3fcbcb93e
+guid: aa47cfdca84b1f5468aa4a0d8ec0347f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6263390155763277000
-    second: Pan de platano-Sheet_0
+      213: 7127094543089874346
+    second: Valla_0
+  - first:
+      213: 6927930132992493163
+    second: Valla_1
+  - first:
+      213: -2432921477757121714
+    second: Valla_2
+  - first:
+      213: -4253579714398332654
+    second: Valla_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pan de platano-Sheet_0
+      name: Valla_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 20
         y: 0
-        width: 400
-        height: 80
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ccd2fb69280ce650800000000000000
-      internalID: 6263390155763277000
+      spriteID: aa53f79d9b688e260800000000000000
+      internalID: 7127094543089874346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b660ebd00c3f42060800000000000000
+      internalID: 6927930132992493163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b4edf5ec68c3ed0800000000000000
+      internalID: -2432921477757121714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219da7349cf38f4c0800000000000000
+      internalID: -4253579714398332654
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pan de platano-Sheet_0: 6263390155763277000
+      Valla_0: 7127094543089874346
+      Valla_1: 6927930132992493163
+      Valla_2: -2432921477757121714
+      Valla_3: -4253579714398332654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

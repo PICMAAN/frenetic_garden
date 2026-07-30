@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9b3c08f0a34e040bbad8a4934f139c, type: 3}
+  m_Name: AguaDeFrutas
+  m_EditorClassIdentifier: Assembly-CSharp::Receta
+  nombrePlatillo: Agua De Frutas
+  iconoPlatillo: {fileID: -7036456244566644453, guid: e302561b6d661f245a270a289bd005a5, type: 3}
+  prefabPlatilloListo: {fileID: 3897907443716823502, guid: 892e74732f8469a4a922eceb21408165, type: 3}
+  ingredientesFijos:
+  - {fileID: 11400000, guid: c2e7ac9c0acc02f488916e27a47af1f1, type: 2}
+  ingredientesAlternativos:
+  - {fileID: 11400000, guid: 437015fbde55bcd4b8cecf55be4ef2ca, type: 2}
+  - {fileID: 11400000, guid: 9988897fc7599094eb497fe4069101f5, type: 2}
+  - {fileID: 11400000, guid: ef295c8ded339174f9926ce646b33378, type: 2}

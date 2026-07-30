@@ -103,10 +103,10 @@ TextureImporter:
       name: Melon_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 45
-        height: 39
+        x: 2
+        y: 6
+        width: 43
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
