@@ -1,17 +1,18 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// Un icono seleccionable dentro del menu del horno. Muestra el sprite
-// del platillo y avisa a HornoUI cuando el jugador lo elige.
+// Un icono seleccionable dentro del menu de cualquier instrumento de
+// cocina (horno, tabla de cortar, licuadora, olla). Muestra el sprite
+// del platillo y avisa a EstacionUI cuando el jugador lo elige.
 public class SlotRecetaUI : MonoBehaviour
 {
     public Image imagenPlatillo;
     public Button boton;
 
     private Receta recetaAsignada;
-    private HornoUI menuPadre;
+    private EstacionUI menuPadre;
 
-    public void Configurar(Receta receta, HornoUI menu)
+    public void Configurar(Receta receta, EstacionUI menu)
     {
         gameObject.SetActive(true);
         recetaAsignada = receta;

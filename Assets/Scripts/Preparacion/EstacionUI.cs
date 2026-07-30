@@ -3,23 +3,22 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-// El panel que se abre al interactuar con el horno. Muestra los sprites
-// de los platillos disponibles, y cuando el jugador elige uno le pregunta
-// al Horno si se puede preparar. Si faltan ingredientes muestra un
-// mensaje de aviso en vez de cerrar el panel.
-public class HornoUI : MonoBehaviour
+// El panel que se abre al interactuar con CUALQUIER instrumento de
+// cocina (Horno, Tabla de Cortar, Licuadora, Olla). Puedes usar la
+// misma miniUI para los 4 (un solo Canvas/panel en tu HUD).
+public class EstacionUI : MonoBehaviour
 {
     [Header("Panel")]
-    public GameObject panelUI; 
+    public GameObject panelUI; // el contenedor que se prende/apaga
 
-    [Header("Slots (uno por cada uno de los 9 platillos)")]
+    [Header("Slots (tantos como el maximo de recetas que muestres a la vez)")]
     public SlotRecetaUI[] slotsDeReceta;
 
     [Header("Mensaje de error")]
     public TMP_Text textoMensaje;
     public float duracionMensaje = 2f;
 
-    private Horno hornoActual;
+    private EstacionDeCocina estacionActual;
 
     private void Awake()
     {
@@ -34,10 +33,10 @@ public class HornoUI : MonoBehaviour
         }
     }
 
-    // Lo llama el Horno cuando el jugador presiona Espacio frente a el
-    public void AbrirUI(Horno horno, Receta[] recetas)
+    // Lo llama la EstacionDeCocina cuando el jugador presiona Espacio frente a ella
+    public void AbrirUI(EstacionDeCocina estacion, Receta[] recetas)
     {
-        hornoActual = horno;
+        estacionActual = estacion;
 
         if (panelUI != null)
         {
@@ -73,9 +72,9 @@ public class HornoUI : MonoBehaviour
     // Lo llama SlotRecetaUI cuando el jugador selecciona ese platillo
     public void SeleccionarReceta(Receta receta)
     {
-        if (hornoActual == null) return;
+        if (estacionActual == null) return;
 
-        bool sePudoPreparar = hornoActual.IntentarPrepararReceta(receta);
+        bool sePudoPreparar = estacionActual.IntentarPrepararReceta(receta);
 
         if (sePudoPreparar)
         {
