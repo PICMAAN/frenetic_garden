@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SopaDeVerdura
   m_EditorClassIdentifier: Assembly-CSharp::Receta
   nombrePlatillo: Sopa De Verdura
-  iconoPlatillo: {fileID: 1574352125750359317, guid: fc1b6b4fc3e2976419e3769831957e76, type: 3}
+  iconoPlatillo: {fileID: 6821325286584083900, guid: 54859ea21ba048640a74135fac463a80, type: 3}
   prefabPlatilloListo: {fileID: 8073135204706741861, guid: e081da2655d91c74dae0f96b737d7ac9, type: 3}
   ingredientesFijos:
   - {fileID: 11400000, guid: c2e7ac9c0acc02f488916e27a47af1f1, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SopaDePapa
   m_EditorClassIdentifier: Assembly-CSharp::Receta
   nombrePlatillo: Sopa De Papa
-  iconoPlatillo: {fileID: 856276229502992486, guid: e124f6186a626064784aedad5022c580, type: 3}
+  iconoPlatillo: {fileID: 6263390155763277000, guid: cceb0040dc7472b42a1f31f3fcbcb93e, type: 3}
   prefabPlatilloListo: {fileID: 7612668811072029485, guid: 77caf1f4f9725764fa8bdb8082723dac, type: 3}
   ingredientesFijos:
   - {fileID: 11400000, guid: c2e7ac9c0acc02f488916e27a47af1f1, type: 2}
