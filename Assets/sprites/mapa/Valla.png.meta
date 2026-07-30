@@ -1,20 +1,7 @@
-@ -1,221 +0,0 @@
 fileFormatVersion: 2
 guid: d27c2c51e1c32ee468498c19844afa76
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7127094543089874346
-    second: Valla_0
-  - first:
-      213: 6927930132992493163
-    second: Valla_1
-  - first:
-      213: -2432921477757121714
-    second: Valla_2
-  - first:
-      213: -4253579714398332654
-    second: Valla_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -61,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -85,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,20 +100,20 @@ TextureImporter:
       name: Valla_0
       rect:
         serializedVersion: 2
-        x: 20
+        x: 16
         y: 0
-        width: 8
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa53f79d9b688e260800000000000000
-      internalID: 7127094543089874346
+      spriteID: 3b08ca170811ed14ebb5ce579c0b9b13
+      internalID: 1888980056
       vertices: []
       indices: 
       edges: []
@@ -135,20 +122,20 @@ TextureImporter:
       name: Valla_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 1
-        width: 24
-        height: 15
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b660ebd00c3f42060800000000000000
-      internalID: 6927930132992493163
+      spriteID: 4d42339993faad84d9eb7efcc19f401e
+      internalID: 132392424
       vertices: []
       indices: 
       edges: []
@@ -157,20 +144,20 @@ TextureImporter:
       name: Valla_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1
-        width: 34
-        height: 15
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4b4edf5ec68c3ed0800000000000000
-      internalID: -2432921477757121714
+      spriteID: d990070b36c7c4e4387da51ec78defe4
+      internalID: -489694367
       vertices: []
       indices: 
       edges: []
@@ -179,20 +166,86 @@ TextureImporter:
       name: Valla_3
       rect:
         serializedVersion: 2
-        x: 100
+        x: 64
         y: 0
-        width: 24
+        width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 219da7349cf38f4c0800000000000000
-      internalID: -4253579714398332654
+      spriteID: 6971a755324ce4a4dbf54c3f37a9aa95
+      internalID: -1325065433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e1c526306d0340b65481eb1e77aca
+      internalID: -530204062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c46b9da273f1459cd3e4a1041ac45
+      internalID: 1027916478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Valla_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e094306c02f54e86295aef9ffb817
+      internalID: -1702100005
       vertices: []
       indices: 
       edges: []
@@ -201,7 +254,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c6d2889d089680f4b85416f25d99859f
     internalID: 0
     vertices: []
     indices: 
@@ -209,12 +262,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Valla_0: 7127094543089874346
-      Valla_1: 6927930132992493163
-      Valla_2: -2432921477757121714
-      Valla_3: -4253579714398332654
+      Valla_0: 1888980056
+      Valla_1: 132392424
+      Valla_2: -489694367
+      Valla_3: -1325065433
+      Valla_4: -530204062
+      Valla_5: 1027916478
+      Valla_6: -1702100005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

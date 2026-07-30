@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 229997194}
   - component: {fileID: 229997193}
   m_Layer: 5
-  m_Name: Kitchen
+  m_Name: Frenetic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: KITCHEN
+  m_text: FRENETIC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d547fe43ff28bf248983d83bc2c08fb3, type: 2}
   m_sharedMaterial: {fileID: 6332068103232177808, guid: d547fe43ff28bf248983d83bc2c08fb3, type: 2}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.25
+  m_fontSize: 50.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 1407739332}
   - component: {fileID: 1407739331}
   m_Layer: 5
-  m_Name: Monkey
+  m_Name: Garden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1167,7 +1167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MONKEY
+  m_text: GARDEN
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d547fe43ff28bf248983d83bc2c08fb3, type: 2}
   m_sharedMaterial: {fileID: 6332068103232177808, guid: d547fe43ff28bf248983d83bc2c08fb3, type: 2}
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.75
+  m_fontSize: 57.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
